@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Shows - IMDb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        /* Header Styles */
+        header {
+            background-color: #212121;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #f5c518;
+            text-decoration: none;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        /* Main Content */
+        main {
+            padding: 20px 30px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        /* TV Shows Grid */
+        .tvshow-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .tvshow-card {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .tvshow-card:hover {
+            transform: translateY(-5px);
+        }
+        .tvshow-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .tvshow-card .tvshow-title {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .tvshow-card .tvshow-genre {
+            font-size: 14px;
+            color: #888;
+        }
+        .tvshow-card .tvshow-description {
+            font-size: 14px;
+            color: #666;
+            padding: 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="https://www.imdb.com/" class="logo">IMDb</a>
+        <nav>
+            <a href="project page5.html">Home</a>
+            <a href="project page6.html">Movies</a>
+            <a href="project page7.html">TV Shows</a>
+            <a href="project page8.html">Celebrities</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Popular TV Shows</h2>
+        <div class="tvshow-grid">
+            <!-- TV Show Card 1 -->
+            <div class="tvshow-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjE2N2MyMzEtNmU5NS00OTI0LTlkNTMtMWM1YWYyNmU4NmY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Stranger Things">
+                <div class="tvshow-title">Stranger Things</div>
+                <div class="tvshow-genre">Drama, Thriller</div>
+                <div class="tvshow-description">*Stranger Things* is a sci-fi horror series set in the 1980s, centered on a group of kids in the small town of Hawkins, Indiana, who encounter supernatural forces after their friend Will mysteriously vanishes.
+                    The group, including Mike, Dustin, and Lucas, meets Eleven, a girl with telekinetic powers who escaped from a secret lab and is key to fighting the dark creatures from the "Upside Down" dimension.
+                    Other notable characters include Chief Hopper, who investigates the strange occurrences, and Joyce, Will's determined mother.
+                       Blending 80s nostalgia, suspense, and friendship, *Stranger Things* became a cultural phenomenon worldwide.</div>
+            </div>
+            <!-- TV Show Card 2 -->
+            <div class="tvshow-card">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/846/81/desktop-wallpaper-friends-tv-show-the-best-friends-cast.jpg" alt="Friends">
+                <div class="tvshow-title">Friends</div>
+                <div class="tvshow-genre">Comedy, Romance</div>
+                <div class="tvshow-description">*Friends* is a beloved sitcom that follows the lives of six friends in New York City as they navigate work, love, and the ups and downs of adulthood.
+                    The group includes Monica, a chef known for her perfectionism; Ross, a paleontologist with a complicated love life, especially with Rachel, his longtime crush; Rachel herself, who starts as a spoiled runaway bride and grows into an independent career woman; Chandler, known for his sarcasm; Joey, a struggling actor with a big heart; and Phoebe, an eccentric musician.
+                      Their friendships, romances, and humor made *Friends* a cultural phenomenon and enduring classic.</div>
+            </div>
+            <!-- TV Show Card 3 -->
+            <div class="tvshow-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BODA0NTEzMjcyOV5BMl5BanBnXkFtZTgwOTY1ODIyNjM@._V1_.jpg" alt="Vikings">
+                <div class="tvshow-title">Friends</div>
+                <div class="tvshow-title">Vikings</div>
+                <div class="tvshow-genre">Action, Adventure</div>
+                <div class="tvshow-description">*Vikings* is a historical drama following the legendary Norse hero Ragnar Lothbrok as he rises from a farmer to a fierce warrior and King of the Viking tribes.
+                    Set in Scandinavia, it explores the brutal and ambitious Norse way of life, including their raids on England and beyond.
+                    Key characters include Ragnar, his fierce first wife Lagertha, their son Bjorn Ironside, and the loyal yet troubled boatbuilder Floki.
+                    As the story unfolds, the focus shifts to Ragnar's sons and their conquests. The series captures epic battles, Norse mythology, and the complex bonds of family, loyalty, and betrayal.</div>
+            </div>
+            <!-- Add more TV show cards as needed -->
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchlist - IMDb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        /* Header Styles */
+        header {
+            background-color: #212121;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #f5c518;
+            text-decoration: none;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        /* Main Content */
+        main {
+            padding: 20px 30px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        /* Watchlist Grid */
+        .watchlist-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .watchlist-card {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .watchlist-card:hover {
+            transform: translateY(-5px);
+        }
+        .watchlist-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .watchlist-card .watchlist-title {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .watchlist-card .watchlist-type {
+            font-size: 14px;
+            color: #888;
+        }
+        .watchlist-card .watchlist-description {
+            font-size: 14px;
+            color: #666;
+            padding: 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="https://www.imdb.com/" class="logo">IMDb</a>
+        <nav>
+            <a href="project page5.html">Home</a>
+            <a href="project page6.html">Movies</a>
+            <a href="project page7.html">TV Shows</a>
+            <a href="project page8.html">Celebrities</a>
+            <a href="project page9.html">Watchlist</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Your Watchlist</h2>
+        <h3>1. Epic Fantasy Series:</h3>
+        <div class="watchlist-grid">
+            <!-- Watchlist Item 1 -->
+            <div class="watchlist-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_.jpg" alt="Game of Thrones">
+                <div class="watchlist-title">Game of Thrones</div>
+                <div class="watchlist-type">Series</div>
+                <div class="watchlist-description">*Game of Thrones* is an epic fantasy series set in the Seven Kingdoms of Westeros, where noble families vie for the Iron Throne and control over the realm.
+                    The story is driven by complex characters, including Eddard Stark, Daenerys Targaryen, and Tyrion Lannister, each with unique ambitions, loyalties, and moral codes.
+                    Beyond political intrigue, the show delves into a battle of ancient forces as the undead White Walkers threaten humanity.
+                       Known for its unexpected twists, alliances, betrayals, and intense battles, *Game of Thrones* explores power, honor, love, and survival in a world where anyone can be a hero—or a villain.</div>
+            </div>
+            <!-- Watchlist Item 2 -->
+            <div class="watchlist-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTQ5MDU5MTktMDZkMy00NDU1LWIxM2UtODg5OGFiNmRhNDBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Witcher">
+                <div class="watchlist-title">The Witcher</div>
+                <div class="watchlist-type">Series</div>
+                <div class="watchlist-description">*The Witcher* follows Geralt of Rivia, a monster hunter in a medieval fantasy world filled with magic, dangerous creatures, and warring kingdoms.
+                    Geralt, known for his grim determination and code of ethics, navigates a society that often views him with distrust, even as he protects it from supernatural threats.
+                    The series also follows the intertwining fates of Princess Ciri, a girl with powerful abilities, and Yennefer, a sorceress with her own ambitions.
+                       Based on Andrzej Sapkowski's novels, *The Witcher* combines dark fantasy, moral complexities, and action as Geralt faces foes both monstrous and human in his journey.</div>
+            </div>
+            <!-- Watchlist Item 3 -->
+            <div class="watchlist-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BZWM1NTJiNzUtYTJlYy00NWYyLTliNjUtN2FjNzdkOWQxNWRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Shadow and Bone">
+                <div class="watchlist-title">Shadow and Bone</div>
+                <div class="watchlist-type">Series</div>
+                <div class="watchlist-description">*Shadow and Bone* is a fantasy series set in the war-torn world of Ravka, divided by a dark, monster-filled region called the Shadow Fold.
+                    The story follows Alina Starkov, a young mapmaker who discovers she has rare powers as a Sun Summoner, capable of potentially destroying the Fold.
+                    Her newfound abilities thrust her into the world of the Grisha, an elite group of magical warriors led by the mysterious General Kirigan, also known as the Darkling.
+                    As Alina learns to harness her power, she faces political intrigue, betrayal, and a growing battle between light and darkness that could shape Ravka's fate.</div>
+            </div>
+
+            <div class="watchlist-grid">
+                <!-- Watchlist Item 4 -->
+                <div class="watchlist-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNmE4YjExZTQtYzM2ZC00ZDM4LWFkMWEtMmY1NWM2YTJkNDMyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Wheel of Time">
+                    <div class="watchlist-title">The Wheel of Time</div>
+                    <div class="watchlist-type">Series</div>
+                    <div class="watchlist-description">*The Wheel of Time* is a high fantasy series following Moiraine, a member of the powerful Aes Sedai, as she searches for the Dragon Reborn, a person prophesied to either save the world or destroy it.
+                        Set in a sprawling world where time is cyclical and magic is wielded by select women, the story revolves around five young villagers drawn into a battle against the Dark One, a primordial evil threatening to break free.
+                        As Moiraine guides them, they face ancient prophecies, dangerous foes, and questions of destiny, with each character’s choices shaping the balance between light and darkness.</div>
+            <!-- Watchlist Item 5 -->
+            
+            </div>
+        </div>
+    </main>
+
+    <main>
+        <h3>2. Crime Thrillers:</h3>
+        <div class="watchlist-grid">
+            <!-- Watchlist Item 1 -->
+            <div class="watchlist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpPj5zJZ11yrLKKDjccl3yzA9el9iembYxrw&s" alt="Game of Thrones">
+                <div class="watchlist-title">Game of Thrones</div>
+                <div class="watchlist-type">Series</div>
+                <div class="watchlist-description">*Game of Thrones* is an epic fantasy series set in the Seven Kingdoms of Westeros, where noble families vie for the Iron Throne and control over the realm.
+                    The story is driven by complex characters, including Eddard Stark, Daenerys Targaryen, and Tyrion Lannister, each with unique ambitions, loyalties, and moral codes.
+                    Beyond political intrigue, the show delves into a battle of ancient forces as the undead White Walkers threaten humanity.
+                       Known for its unexpected twists, alliances, betrayals, and intense battles, *Game of Thrones* explores power, honor, love, and survival in a world where anyone can be a hero—or a villain.</div>
+            </div>
+            <!-- Watchlist Item 2 -->
+            <div class="watchlist-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTQ5MDU5MTktMDZkMy00NDU1LWIxM2UtODg5OGFiNmRhNDBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Witcher">
+                <div class="watchlist-title">The Witcher</div>
+                <div class="watchlist-type">Series</div>
+                <div class="watchlist-description">*The Witcher* follows Geralt of Rivia, a monster hunter in a medieval fantasy world filled with magic, dangerous creatures, and warring kingdoms.
+                    Geralt, known for his grim determination and code of ethics, navigates a society that often views him with distrust, even as he protects it from supernatural threats.
+                    The series also follows the intertwining fates of Princess Ciri, a girl with powerful abilities, and Yennefer, a sorceress with her own ambitions.
+                       Based on Andrzej Sapkowski's novels, *The Witcher* combines dark fantasy, moral complexities, and action as Geralt faces foes both monstrous and human in his journey.</div>
+            </div>
+            <!-- Watchlist Item 3 -->
+            <div class="watchlist-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BZWM1NTJiNzUtYTJlYy00NWYyLTliNjUtN2FjNzdkOWQxNWRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Shadow and Bone">
+                <div class="watchlist-title">Shadow and Bone</div>
+                <div class="watchlist-type">Series</div>
+                <div class="watchlist-description">*Shadow and Bone* is a fantasy series set in the war-torn world of Ravka, divided by a dark, monster-filled region called the Shadow Fold.
+                    The story follows Alina Starkov, a young mapmaker who discovers she has rare powers as a Sun Summoner, capable of potentially destroying the Fold.
+                    Her newfound abilities thrust her into the world of the Grisha, an elite group of magical warriors led by the mysterious General Kirigan, also known as the Darkling.
+                    As Alina learns to harness her power, she faces political intrigue, betrayal, and a growing battle between light and darkness that could shape Ravka's fate.</div>
+            </div>
+
+            <div class="watchlist-grid">
+                <!-- Watchlist Item 4 -->
+                <div class="watchlist-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNmE4YjExZTQtYzM2ZC00ZDM4LWFkMWEtMmY1NWM2YTJkNDMyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Wheel of Time">
+                    <div class="watchlist-title">The Wheel of Time</div>
+                    <div class="watchlist-type">Series</div>
+                    <div class="watchlist-description">*The Wheel of Time* is a high fantasy series following Moiraine, a member of the powerful Aes Sedai, as she searches for the Dragon Reborn, a person prophesied to either save the world or destroy it.
+                        Set in a sprawling world where time is cyclical and magic is wielded by select women, the story revolves around five young villagers drawn into a battle against the Dark One, a primordial evil threatening to break free.
+                        As Moiraine guides them, they face ancient prophecies, dangerous foes, and questions of destiny, with each character’s choices shaping the balance between light and darkness.</div>
+            <!-- Watchlist Item 5 -->
+            
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

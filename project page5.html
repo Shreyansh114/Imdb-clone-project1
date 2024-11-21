@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb - Movies, TV and Celebrities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        /* Header Styles */
+        header {
+            background-color: #212121;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #f5c518;
+            text-decoration: none;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .search-box {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .search-box input {
+            padding: 5px;
+            font-size: 16px;
+        }
+        /* Main Content */
+        main {
+            padding: 20px 30px;
+        }
+        .banner {
+            background-image: url('https://example.com/banner-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: #def25c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        /* Movies Section */
+        .movies-section {
+            margin-top: 30px;
+        }
+        .movies-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .movie {
+            background-color: #ffffff;
+            margin: 10px;
+            padding: 15px;
+            display: inline-block;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .movie img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .movie-title {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="https://www.imdb.com/" class="logo">IMDb</a>
+        <nav>
+            <a href="project page6.html">Movies</a>
+            <a href="project page7.html">TV Shows</a>
+            <a href="project page8.html">Celebrities</a>
+            <a href="project page9.html">Watchlist</a>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Search IMDb...">
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        Welcome to my IMDb Clone
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Popular Movies Section -->
+        <section class="movies-section">
+            <h2>Popular Movies</h2>
+            <div class="movie">
+                <img src="https://c8.alamy.com/comp/2JHNBF1/vin-diesel-paul-walker-dwayne-johnson-poster-fast-five-2011-2JHNBF1.jpg" alt="Fast Five (2011)"
+                <div class="movie-title">Fast Five (2011)</div>
+            </div>
+            <div class="movie">
+                <img src="https://image.tmdb.org/t/p/original/q9bJKQTWJZ9yxYnaB3Axhna57nQ.jpg" alt="The Godfather (1972)">
+                <div class="movie-title">The Godfather (1972)
+                </div>
+            </div>
+            <div class="movie">
+                <img src="https://static.wikia.nocookie.net/the-jh-movie-collection-official/images/8/83/Dark_knight_rises_poster.jpg/revision/latest?cb=20200320201436" alt="The Dark Knight (2008)">
+                <div class="movie-title">The Dark Knight (2008)</div>
+            </div>
+            <div class="movie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnSGLQj8fMorUBP9YnWX4M7EsWhv9vFcsqQ&s" alt="pirates of the caribbean (2003)">
+                <div class="movie-title">pirates of the caribbean (2003)</div>
+            </div>
+            <div class="movie">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/ju2z6a80/poster/v/9/g/medium-endgameart-avengers-endgame-new-poster-for-room-office-original-imaff9ecy3wgbdtv.jpeg?q=90&crop=false" alt="Avengers:Endgame">
+                <div class="movie-title">Avengers:Endgame (2019)</div>
+            </div>
+            <div class="movie">
+                <img src="https://preview.redd.it/official-poster-for-venom-the-last-dance-v0-4ywmp23htc4d1.png?auto=webp&s=bd1e10dd2643226a7e379a77aa3524271137e5a5" alt="Venom: The Last Dance (2024)">
+                <div class="movie-title">Venom: The Last Dance (2024)</div>
+            </div>
+            <!-- Add more movies as needed -->
+        </section>
+    </main>
+</body>
+</html>

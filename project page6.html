@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Movies - IMDb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        /* Header Styles */
+        header {
+            background-color: #212121;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #f5c518;
+            text-decoration: none;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        /* Main Content */
+        main {
+            padding: 20px 30px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        /* Movie Grid */
+        .movie-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .movie-card {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .movie-card:hover {
+            transform: translateY(-5px);
+        }
+        .movie-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .movie-card .movie-title {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .movie-card .movie-description {
+            font-size: 14px;
+            color: #666;
+            padding: 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="https://www.imdb.com/" class="logo">IMDb</a>
+        <nav>
+            <a href="project page5.html">Home</a>
+            <a href="project page6.html">Movies</a>
+            <a href="project page7.html">TV Shows</a>
+            <a href="project page8.html">Celebrities</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>All Movies</h2>
+        <div class="movie-grid">
+            <!-- Movie Card 1 -->
+            <div class="movie-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Deadpool &  Wolverine (2024)">
+                <div class="movie-title">Deadpool &  Wolverine (2024)</div>
+                <div class="movie-description">In *Deadpool & Wolverine* (2024), Deadpool (Ryan Reynolds) re-enters his chaotic superhero life when his universe faces collapse after Wolverine's death destabilizes it.
+                     To save his world, Deadpool must work with an alternate Wolverine (Hugh Jackman), recruited from another timeline.
+                      Together, they tackle the Time Variance Authority (TVA), which seeks to "prune" Deadpool's timeline, under the guidance of a manipulative agent named Paradox.
+                       Along the way, they encounter multiverse versions of themselves, new allies, and formidable foes, blending action, humor, and Deadpool's signature irreverence.
+                        The film ties into Marvel's wider multiverse, packed with comic-style action and dark humor【23†source】【24†source】.</div>
+            </div>
+            <!-- Movie Card 2 -->
+            <div class="movie-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_.jpg" alt="Joker (2019)">
+                <div class="movie-title">Joker (2019)</div>
+                <div class="movie-description">*Joker* (2019), directed by Todd Phillips, is a dark psychological thriller exploring the origin story of one of DC Comics' most iconic villains.
+                     Joaquin Phoenix stars as Arthur Fleck, a struggling comedian in Gotham City who endures societal neglect, mental illness, and personal hardships.
+                      As he faces relentless rejection and violence, Arthur descends into madness, ultimately transforming into the anarchic Joker.
+                       Phoenix's intense, layered performance earned him an Academy Award for Best Actor, and the film itself sparked critical debate on its themes of isolation, mental health, and society’s treatment of the marginalized.
+                        *Joker* became a cultural phenomenon worldwide.</div>
+            </div>
+            <!-- Movie Card 3 -->
+            <div class="movie-card">
+                <img src="https://resizing.flixster.com/8PNiwC2bpe9OecfYZSOVkvYC5vk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U5NGM0Y2Q1LTAyYTItNGFjNC1hNWZhLWMzYjJjOTdjMTFhOS5qcGc=" alt="Spider-Man: No Way Home (2021)">
+                <div class="movie-title">Spider-Man: No Way Home (2021)</div>
+                <div class="movie-description">*Spider-Man: No Way Home* (2021), directed by Jon Watts, is a thrilling addition to the Marvel Cinematic Universe.
+                     The film follows Peter Parker (Tom Holland) as he seeks help from Doctor Strange (Benedict Cumberbatch) to erase public knowledge of his identity as Spider-Man.
+                      However, the spell backfires, bringing villains from alternate universes—like Green Goblin (Willem Dafoe), Doctor Octopus (Alfred Molina), and Electro (Jamie Foxx)—into his world.
+                       Joined by two other Spider-Men (Tobey Maguire and Andrew Garfield), Peter learns about responsibility and sacrifice.
+                        Known for its fan service and nostalgia, the film became a box office sensation, resonating with audiences globally.</div>
+            </div>
+            <div class="movie-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTAyOTE3MjItODljMi00ZjhjLTkyYmEtMTkzOGE1YzgzMjg0XkEyXkFqcGc@._V1_.jpg" alt="Titanic (1997)">
+                <div class="movie-title">Titanic (1997)</div>
+                <div class="movie-description">*Titanic* (1997), directed by James Cameron, is an epic romance and disaster film set aboard the ill-fated RMS Titanic.
+                     It follows the love story between Jack Dawson (Leonardo DiCaprio), a penniless artist, and Rose DeWitt Bukater (Kate Winslet), a young aristocrat trapped in a loveless engagement.
+                      As they fall in love, the Titanic strikes an iceberg, leading to one of history's most tragic maritime disasters.
+                       The film combines breathtaking visuals with powerful themes of love, class, and survival. *Titanic* won 11 Academy Awards, including Best Picture, and remains one of the highest-grossing films of all time.</div>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSjSWOCaw5dnDL2GT1zFd9RMCgUGw5Q2Cfg&s" alt="The Matrix (1999)">
+                <div class="movie-title">The Matrix (1999)</div>
+                <div class="movie-description">*The Matrix* (1999) is a groundbreaking sci-fi action film directed by the Wachowskis.
+                     It follows Neo (Keanu Reeves), a hacker who discovers that humanity lives unknowingly in a simulated reality created by intelligent machines.
+                      Guided by Morpheus (Laurence Fishburne) and Trinity (Carrie-Anne Moss), Neo learns of his role as "The One" who can defy the matrix's rules to free humanity.
+                       Known for its philosophical themes on reality, technology, and control, the film revolutionized visual effects with its "bullet time" slow-motion shots.
+                        *The Matrix* became a cultural phenomenon, inspiring a franchise and influencing action cinema for years to come.</div>
+            </div>
+            <!-- Add more movie cards as needed -->
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrities - IMDb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        /* Header Styles */
+        header {
+            background-color: #212121;
+            color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #f5c518;
+            text-decoration: none;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        /* Main Content */
+        main {
+            padding: 20px 30px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        /* Celebrity Grid */
+        .celebrity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .celebrity-card {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .celebrity-card:hover {
+            transform: translateY(-5px);
+        }
+        .celebrity-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .celebrity-card .celebrity-name {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .celebrity-card .celebrity-description {
+            font-size: 14px;
+            color: #666;
+            padding: 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="https://www.imdb.com/" class="logo">IMDb</a>
+        <nav>
+            <a href="project page5.html">Home</a>
+            <a href="project page6.html">Movies</a>
+            <a href="project page7.html">TV Shows</a>
+            <a href="project page8.html">Celebrities</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Popular Celebrities</h2>
+        <div class="celebrity-grid">
+            <!-- Celebrity Card 1 -->
+            <div class="celebrity-card">
+                <img src="https://nationaltoday.com/wp-content/uploads/2022/05/107-Johnny-Depp-1200x834.jpg" alt="Celebrity 1">
+                <div class="celebrity-name">Johnny depp</div>
+                <div class="celebrity-description">Johnny Depp, an American actor and producer, is celebrated for his unique character portrayals, often under director Tim Burton.
+                     Rising to fame in the '80s TV series *21 Jump Street*, he became a Hollywood icon with roles in *Edward Scissorhands* (1990), *Pirates of the Caribbean* series (2003-2017), *Finding Neverland* (2004), and *Sweeney Todd* (2007).
+                     Depp's career is marked by his transformative characters, notably Captain Jack Sparrow, earning him an Academy Award nomination.
+                      With Golden Globe and Screen Actors Guild awards, Depp is acclaimed for his versatility and distinctive style, making him a pivotal figure in contemporary cinema.</div>
+            </div>
+            <!-- Celebrity Card 2 -->
+            <div class="celebrity-card">
+                <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/269411_v9_bd.jpg" alt="Tom Hardy">
+                <div class="celebrity-name">Tom Hardy</div>
+                <div class="celebrity-description">Tom Hardy, a British actor renowned for his intense roles and transformative performances, rose to fame with *Bronson* (2008), showcasing his versatility.
+                     He gained critical acclaim in *Inception* (2010), *The Dark Knight Rises* (2012) as Bane, and *Mad Max: Fury Road* (2015).
+                      Hardy’s portrayal of dual roles in *Legend* (2015) and the gritty performance in *The Revenant* (2015), which earned him an Academy Award nomination, solidified his place in Hollywood.
+                       Known for his dedication and depth, Hardy has won a Critics' Choice Television Award and a BAFTA Rising Star Award, establishing him as a captivating talent.</div>
+            </div>
+            <!-- Celebrity Card 3 -->
+            <div class="celebrity-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg" alt="Scarlett Johansson">
+                <div class="celebrity-name">Scarlett Johansson</div>
+                <div class="celebrity-description">Scarlett Johansson, an acclaimed American actress, is celebrated for her versatility and on-screen charisma.
+                     She gained early recognition with *Lost in Translation* (2003), winning a BAFTA for her role, and later starred in critically praised films like *Match Point* (2005) and *Vicky Cristina Barcelona* (2008).
+                      Known globally for portraying Natasha Romanoff/Black Widow in the Marvel Cinematic Universe, Johansson has also delivered powerful performances in *Marriage Story* (2019) and *Jojo Rabbit* (2019), earning two Oscar nominations in the same year.
+                       With multiple Golden Globe and BAFTA nominations, Johansson is among Hollywood's highest-grossing and most accomplished actresses.</div>
+            </div>
+            <div class="celebrity-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_.jpg" alt="Robert Downey Jr.">
+                <div class="celebrity-name">Robert Downey Jr.</div>
+                <div class="celebrity-description">Robert Downey Jr., an American actor, has had a remarkable career, marked by both struggle and resurgence.
+                     Rising to fame in the 1980s with films like *Less Than Zero*, he earned critical acclaim for his portrayal of Charlie Chaplin in *Chaplin* (1992), garnering an Academy Award nomination.
+                      Despite personal setbacks, he made a massive comeback as Tony Stark in the Marvel Cinematic Universe, redefining his career and popularizing the *Iron Man* franchise.
+                       Other notable roles include *Sherlock Holmes*, for which he won a Golden Globe. Downey has received multiple awards, including BAFTAs and SAG Awards, cementing his iconic status.</div>
+            </div>
+            <!-- Add more celebrity cards as needed -->
+        </div>
+    </main>
+</body>
+</html>
